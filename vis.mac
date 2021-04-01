@@ -1,0 +1,9 @@
+/vis/open OGL 600x600-0+0
+/vis/drawVolume
+/vis/viewer/set/style surface
+/vis/scene/add/trajectories smooth
+/vis/scene/add/hits
+/vis/scene/endOfEventAction accumulate
+# Make the "World" box invisible
+/vis/geometry/set/visibility World 0 false
+#/vis/viewer/set/style wireframe
